@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="container-fluid">
+    <div class="row justify-content-evenly">
+        <div class="col-4">
+            <img src="{% static 'images\image captioning.jpg' %}" alt="img caption" class="first-image">
+        </div>
+        <div class="col-4">
+            <h2 class="heading-1">Why Drishya Sakhi? </h2>
+            <p class="explanation">
+                <b>Drishya Sakhi</b> enables visually impaired users to comprehend visual content such as images and videos,
+                promoting independence and confidence in navigating their surroundings. Unlike existing models that
+                focus on English, Drishya Sakhi generates captions in Hindi, ensuring inclusivity for a wider audience,
+                particularly in linguistically diverse regions like India. The dual functionality of text-to-voice
+                conversion in Hindi ensures visually impaired users receive intuitive auditory descriptions, making the
+                technology user-friendly and accessible.
+            </p>
+        </div>
+    </div>
+
+    <div class="row justify-content-evenly">
+        <div class="col-4">
+            <h2 class="heading-1">To whom Drishya Sakhi is? </h2>
+            <p class="explanation">
+                The <b>Drishya Sakhi</b> project is designed for visually impaired individuals, elderly people with
+                low eyesight, and non-English speakers in India who face challenges in accessing and comprehending
+                visual content. It primarily serves those who struggle to navigate their surroundings, understand
+                images, and interact with visual media due to vision-related impairments or language barriers.
+                Additionally, the project benefits educational institutions, assistive technology developers,
+                and organizations working toward accessibility and inclusivity for differently-abled
+                individuals, ensuring that they can live more independent, empowered, and fulfilling lives.
+            </p>
+        </div>
+        <div class="col-4">
+            <img src="{% static 'images\blind-person.JPG' %}" alt="blind-person image" class="first-image">
+        </div>
+    </div>
+</div>
+
+
+
+
+{% endblock %}

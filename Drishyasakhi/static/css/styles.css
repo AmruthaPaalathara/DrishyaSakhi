@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5ff;
+}
+
+.navbar-brand {
+    width: 20px;
+}
+.navbar-brand .navbar-heading {
+    color: black;
+}
+
+main {
+    padding: 2rem;
+}
+
+.first_page{
+    height:85vh;
+    max-width: 250vh;
+    width: 100%;
+}
+
+.row .first-image {
+    width: 70vh;
+    height: 50vh;
+    padding-top: 8rem;
+}
+
+.row .heading-1 {
+    padding-top: 10rem;
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;
+    font-size: xx-large;
+}
+
+.row .explanation {
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal ;
+    font-style: italic;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #222;
+    color: white;
+}
